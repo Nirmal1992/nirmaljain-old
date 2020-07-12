@@ -34,7 +34,7 @@ const Header = () => {
     >
       {/* Logo */}
       <NavLink to="/" fontWeight="bold">
-        FEM Workshop
+        NIRMAL JAIN
       </NavLink>
       {/* Navigation*/}
       <nav
@@ -47,6 +47,9 @@ const Header = () => {
         </NavLink>
         <NavLink to="/about/" activeClassName="current-page">
           About
+        </NavLink>
+        <NavLink to="/contact/" activeClassName="current-page">
+          Contact
         </NavLink>
       </nav>
     </header>
